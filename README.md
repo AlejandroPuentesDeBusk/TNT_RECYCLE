@@ -1,2 +1,2 @@
 # TNT_RECYCLE
-Transaction system runnign on the web 
+Transactions system runnign on the web 
