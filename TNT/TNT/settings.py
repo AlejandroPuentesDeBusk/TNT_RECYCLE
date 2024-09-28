@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'TRANSACCIONES',
     'FINANZAS',
     'CONTROL',
+    'AJUSTES',
     
 ]
 
