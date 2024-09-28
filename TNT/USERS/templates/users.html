@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--NOta esto es provisional para ver que jalara-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <!--Aqui cargamos el CSS Y JS-->
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'users/css/style.css'%} ">
+
+</head>
+<body>
+    
+
+    <!--Carga JavaScript-->
+    <script src="{%static 'users/javascript/scripts.js'%}"></script>
+
+    <div class="login">
+        <h1>Login</h1>
+        <form method="post">
+            <input type="text" name="u" placeholder="Username" required="required" />
+            <input type="password" name="p" placeholder="Password" required="required" />
+            <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
+        </form>
+    </div>
+
+</body>
+</html>

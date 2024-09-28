@@ -1,0 +1,61 @@
+# Sistema
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+ENV.bak/
+*.env
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de bases de datos locales
+db.sqlite3
+*.db
+
+# Archivos de migraciones de Django
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/__pycache__/
+*/migrations/*.py
+
+# Archivos estáticos generados (Django collectstatic)
+staticfiles/
+static/
+
+# Archivos de medios
+media/
+
+# Archivos de coverage y testing
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Archivos de compilación
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+parts/
+sdist/
+develop-eggs/
+
+# Archivos de Docker
+docker-compose.yml
+Dockerfile
