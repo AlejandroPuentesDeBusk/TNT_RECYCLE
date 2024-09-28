@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'USERS',
     'TRANSACCIONES',
     'FINANZAS',
+    'CONTROL',
     
 ]
 
