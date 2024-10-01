@@ -1,3 +1,12 @@
 body{
     background-color: silver;
 }
+.button{
+    color: rgb(63, 189, 189);
+}
+
+.header{
+    background-color: #6E9B08;
+    padding: 2%;
+    margin: 0%;
+}
